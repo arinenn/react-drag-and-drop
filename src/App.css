@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* centering the cards */
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  border-radius: 12px;
+  border: 5px solid;
+  /* for centering the content inside the card */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*  */
+  margin: 20px;
+  cursor: grab;
+}
